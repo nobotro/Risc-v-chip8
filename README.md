@@ -12,4 +12,6 @@ I use tang nano 9k fpga board and 4.3 inch 480xRGBx272 display
 ## User Guide
 - "rtl" directory contains verilog files for risc-v cpu and 4.3 inch 480xRGBx272 lcd controller
 - "sdk" directory contains utils and libs to compile c program ro risc-v executable rom and generate memory configuration file from it.
-- Video demonstration https://www.youtube.com/watch?v=g4ZAb_T6BVA
+- Video demonstrations<br>
+  https://www.youtube.com/watch?v=g4ZAb_T6BVA<br>
+  https://www.youtube.com/shorts/nkxRnUPcrGY
