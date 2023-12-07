@@ -8,7 +8,7 @@ I use tang nano 9k fpga board and 4.3 inch 480xRGBx272 display
 - Not designed with multiple RISC-V harts .
 - The privileged ISA is **not** implemented.
 - FENCE, FENCE.I and CSR instructions are not implemented.
-- Dont have 5 tage pipeline(be added in future)
+- Dont have 5 stage pipeline(be added in future)
  
 ## User Guide
 - "rtl" directory contains verilog files for risc-v cpu and 4.3 inch 480xRGBx272 lcd controller
