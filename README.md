@@ -1,5 +1,5 @@
 ## Risc-v-chip8 
-This repository contains an extremely simple implementation of the RV32I ISA cpu and chip8 emulator which is running on that cpu.<br/>
+This repository contains an extremely simple implementation of the RV32I ISA cpu without 5 stage pipeline and chip8 emulator which is running on that cpu.<br/>
 I use tang nano 9k fpga board and 4.3 inch 480xRGBx272 display
 
 ## Current Design
@@ -8,6 +8,7 @@ I use tang nano 9k fpga board and 4.3 inch 480xRGBx272 display
 - Not designed with multiple RISC-V harts .
 - The privileged ISA is **not** implemented.
 - FENCE, FENCE.I and CSR instructions are not implemented.
+- Dont have 5 tage pipeline(be added in future)
  
 ## User Guide
 - "rtl" directory contains verilog files for risc-v cpu and 4.3 inch 480xRGBx272 lcd controller
